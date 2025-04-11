@@ -15,7 +15,7 @@ const defaultRoles = [
 export default function CouncilPage() {
   const [roles, setRoles] = useLocalStorage("akashic.council", defaultRoles);
 
-  const updateTone = (id: string, newTone: string) => {
+  const updateTone = (id, newTone) => {
     setRoles((prev) => prev.map((r) => (r.id === id ? { ...r, tone: newTone } : r)));
   };
 
