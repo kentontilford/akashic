@@ -1,0 +1,1 @@
+-- Full DB schema for users, roles, memories, etc.
