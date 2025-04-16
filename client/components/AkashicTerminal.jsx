@@ -1,0 +1,1 @@
+// PLACEHOLDER: contents for client/components/AkashicTerminal.jsx
